@@ -56,14 +56,15 @@
                 <li><a href="{{ route('support') }}" class="hover:underline transition duration-300">Support</a></li>
                 <li><a href="{{ route('trips') }}" class="hover:underline transition duration-300">Trips</a></li>
 
-                <li class="relative" onmouseover="showTooltip()" onmouseleave="hideTooltip()">
-                    <button class="ml-4 text-white text-lg">
-                        💬
-                    </button>
-                    <div id="comm-tooltip" class="hidden absolute bg-gray-800 text-white text-sm px-2 py-1 rounded-md mt-1">Communication Center</div>
+                <li>
+                    <a href="{{ route('chat') }}" class="hover:underline transition duration-300">
+                        💬 Help Center
+                    </a>
                 </li>
+                
 
 
+                
                 <li><a href="{{ route('sign-in') }}" class="bg-white text-blue-600 px-6 py-2 rounded-md hover:bg-gray-200 transition duration-300">Sign In</a></li>
                 
             </ul>

@@ -10,6 +10,10 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SaveDataController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ChatController;
+use App\Http\Controllers\FeedController;
+use App\Http\Controllers\FeedControllerController;
+
 
 // 🌟 Home Route
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -81,3 +85,13 @@ Route::get('/users', [UserController::class, 'index']);
 use App\Http\Controllers\HostelController;
 
 Route::get('/hostels', [HostelController::class, 'index']);
+
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/chat', [ChatController::class, 'index'])->name('chat');
+    Route::get('/messages', [ChatController::class, 'fetchMessages']);
+    Route::post('/messages', [ChatController::class, 'sendMessage']);
+});
+
+
+Route::get('/feed',[FeedController::class,'index'])->name('feed.index');

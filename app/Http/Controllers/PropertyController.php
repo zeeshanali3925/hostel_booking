@@ -28,6 +28,7 @@ class PropertyController extends Controller
 
         Property::create($request->all());
 
-        return redirect()->back()->with('success', 'Property Registered Successfully!');
+        return redirect()->route('home')->with('success', 'Property Registered Successfully!');
     }
 }
+

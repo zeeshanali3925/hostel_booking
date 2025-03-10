@@ -18,3 +18,4 @@
         <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr/1_QR_FOOTER.png" class="w-24 mx-auto my-4">
     </div>
 @endsection
+
