@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add CSRF Token in proper head section -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'Expedia Clone')</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -17,6 +19,8 @@
         }
         function hideTooltip() {
             document.getElementById('comm-tooltip').classList.add('hidden');
+
+            
         }
     </script>
 </head>
@@ -27,7 +31,7 @@
             <ul class="flex space-x-6 text-white relative">
                 <li class="relative" onmouseover="showDropdown()" onmouseleave="hideDropdown()">
                     <button class="hover:underline transition duration-300 flex items-center">
-                        &#128506; Shop Travel
+                         Shop Travel
                     </button>
                     <ul id="travel-dropdown" class="hidden absolute left-0 mt-2 w-48 bg-white text-black shadow-lg rounded-md py-2">
                         <li class="flex items-center px-4 py-2 hover:bg-gray-200">
@@ -55,13 +59,16 @@
                 <li><a href="{{ route('list-your-property') }}" class="hover:underline transition duration-300">List Your Property</a></li>
                 <li><a href="{{ route('support') }}" class="hover:underline transition duration-300">Support</a></li>
                 <li><a href="{{ route('trips') }}" class="hover:underline transition duration-300">Trips</a></li>
+                <script src="{{ asset('js/imageUpload.js') }}"></script>
 
                 <li>
                     <a href="{{ route('chat') }}" class="hover:underline transition duration-300">
-                        💬 Help Center
+                         Help Center
                     </a>
                 </li>
                 
+
+
 
 
                 
