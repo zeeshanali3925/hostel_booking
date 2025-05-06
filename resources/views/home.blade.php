@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-<<<<<<< HEAD
+
 @section('title', 'Find Cheap Hostels in Pakistan | Hostel.com')
 
 @section('content')
@@ -367,5 +367,8 @@ function guestSelector() {
             </div>
         </div>
     </div>
->>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314
 @endsection
+
+
+
+<h1>zeehan</h1>
