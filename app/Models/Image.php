@@ -9,11 +9,22 @@ class Image extends Model
 {
     use HasFactory;
 
-    protected $table = 'pictures'; // 👈 Correct table name
+    protected $table = 'images'; // 👈 Correct table name
 
     protected $fillable = [
-        'image_name',
+        'image_path',
         'title',
         'description',
     ];
+
+
+
+// app/Models/Image.php
+public function property()
+{
+    return $this->belongsTo(Property::class);
+}
+
+
+
 }

@@ -12,4 +12,13 @@ class Property extends Model
     protected $fillable = [
         'name', 'address', 'city', 'state', 'zip', 'country', 'email', 'phone', 'description'
     ];
+
+
+
+    public function images()
+    {
+        return $this->hasMany(Image::class);
+    }
+    
+
 }

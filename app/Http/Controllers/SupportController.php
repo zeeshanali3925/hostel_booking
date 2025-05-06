@@ -8,6 +8,6 @@ class SupportController extends Controller
 {
     public function index()
     {
-        return view('support.index');
+        return view('support');
     }
 }
