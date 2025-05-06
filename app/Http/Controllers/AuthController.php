@@ -84,9 +84,17 @@ class AuthController extends Controller
 
         if ($user) {
             Auth::login($user); // User ko login kar dein
+<<<<<<< HEAD
             return redirect()->route('welcome')->with('success', 'Login successful');
+=======
+            return redirect()->route('home')->with('success', 'Login successful');
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314
         }
 
         return back()->withErrors(['email' => 'Email not found.'])->withInput();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314

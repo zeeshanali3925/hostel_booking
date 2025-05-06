@@ -11,4 +11,8 @@
             <a href="#" class="bg-gray-800 text-white px-6 py-3 rounded-md ml-4">Download for iOS</a>
         </div>
     </div>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314

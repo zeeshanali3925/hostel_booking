@@ -44,4 +44,8 @@
             Already have an account? <a href="{{ route('sign-in') }}" class="text-blue-600 hover:underline">Sign In</a>
         </p>
     </div>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314

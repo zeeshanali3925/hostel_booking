@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 <?php
+=======
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314
 
 namespace App\Http\Controllers;
 
@@ -39,4 +42,8 @@ class SaveDataController extends Controller
         // 🔄 Redirect with Success Message
         return redirect()->back()->with('success', 'Property Registered Successfully!');
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314

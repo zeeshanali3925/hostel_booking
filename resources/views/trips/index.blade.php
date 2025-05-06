@@ -17,5 +17,9 @@
         <p class="text-gray-600">Get exclusive discounts up to 20% on select hotels.</p>
         <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr/1_QR_FOOTER.png" class="w-24 mx-auto my-4">
     </div>
+<<<<<<< HEAD
 @endsection
 
+=======
+@endsection
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314

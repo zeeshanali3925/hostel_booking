@@ -30,4 +30,8 @@
         <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Submit</button>
     </form>
 </div>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314

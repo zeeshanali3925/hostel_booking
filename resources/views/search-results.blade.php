@@ -12,8 +12,15 @@
 
         <div class="mt-6">
             <p>Showing search results for your selected criteria...</p>
+<<<<<<< HEAD
 
             
         </div>
     </div>
 @endsection
+=======
+            <!-- یہاں پر ہوٹلز یا پراپرٹیز کو شو کرنے کے لیے کوڈ لگائیں -->
+        </div>
+    </div>
+@endsection
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314

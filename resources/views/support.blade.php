@@ -3,6 +3,7 @@
 @section('title', 'Support')
 
 @section('content')
+<<<<<<< HEAD
 <div class="min-h-screen bg-gradient-to-br from-sky-50 to-white py-20 px-4 sm:px-6 lg:px-16 font-sans">
     
     {{-- Hero Section --}}
@@ -79,4 +80,11 @@
         </a>
     </div>
 </div>
+=======
+    <div class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold">How can we help you?</h2>
+        <p class="mt-4">Find answers to your questions or contact our support team.</p>
+        <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-md mt-4 inline-block">Contact Support</a>
+    </div>
+>>>>>>> 08d23048286da9052358b69b8d1e15dbb96fd314
 @endsection
