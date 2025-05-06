@@ -370,5 +370,3 @@ function guestSelector() {
 @endsection
 
 
-
-<h1>zeehan</h1>
